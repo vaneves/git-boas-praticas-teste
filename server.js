@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.get('/schools', async (req, res) => {
   const schools = await prisma
     .school
-    .findMany({ where: { status: 1 } });
+    .findMany();
     
   res.json(schools);
 });
