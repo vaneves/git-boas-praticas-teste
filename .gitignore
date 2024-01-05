@@ -1,5 +1,7 @@
 .env
 prisma/.env
+prisma/dev.db
+prisma/dev.db-journal
 node_modules/
 prisma/client/
 prisma/migrations/
